@@ -4,7 +4,7 @@ import os
 # ---------- CONFIG ----------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 UPLOAD_FOLDER = os.path.join(BASE_DIR, "uploads")
-PASSWORD = "secret123"  # Change this
+PASSWORD = "6969"  # Change this
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 app = Flask(__name__)
